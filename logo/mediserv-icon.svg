@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="MediServ icon">
+  <title>MediServ icon</title>
+  <defs>
+    <linearGradient id="heart-i" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#E63950"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 90 C22 70 6 54 6 34 C6 19 17 8 31 8 C40 8 46 13 50 20 C54 13 60 8 69 8 C83 8 94 19 94 34 C94 54 78 70 50 90 Z" fill="url(#heart-i)"/>
+  <path d="M18 50 H31 L38 36 L47 66 L56 26 L64 56 L69 50 H82" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
