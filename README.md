@@ -27,3 +27,12 @@ node scripts/export_png.cjs            # renders the PNGs (needs Playwright)
 python3 scripts/build_rollup.py        # writes rollup/midi-rollup.svg
 node scripts/export_rollup.cjs         # renders the preview PNG and print PDF
 ```
+
+## Facebook flyers
+
+`flyers/midi-facebook-*.png` are four 1080 × 1350 (4:5) feed posts for MIDI: launch, features, before/after and free demo, with matching SVG sources and ready-to-paste captions in `flyers/captions.md`. Wording lives in the `TEXT` block of `scripts/build_flyers.py`; the website, phone, email and QR code are placeholders, as on the roll-up.
+
+```sh
+python3 scripts/build_flyers.py        # writes flyers/*.svg
+node scripts/export_flyers.cjs         # renders flyers/*.png
+```
